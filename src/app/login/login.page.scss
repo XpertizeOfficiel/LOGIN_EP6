@@ -1,0 +1,160 @@
+*{
+	font-family: Montserrat, sans-serif;
+}
+
+ion-header{
+
+	ion-toolbar{
+		img{
+			margin-top:1em;
+			width: 50%;
+		}
+	}
+	.flex-element{
+		display: flex;
+		justify-content:space-between;
+
+		h2{
+			color: black;
+			font-size: 20px;
+		}
+
+		h6{
+			color: #007F00;
+			margin-top: 1.8em;
+		}
+	}
+}
+
+ion-content{
+	.position{
+		margin-top:1.5em;
+	}
+	.item-position{
+		margin-top:2em;
+	}
+
+	.text-position{
+		display:flex;
+		justify-content:right;
+		margin-right:0.5em; 
+		color: #1794DD;
+		font-size:14px;
+	}
+
+	.container-form-btn {
+		display: flex;
+		justify-content: center;
+		margin-top:1em !important;   
+
+		.form-btn {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 0 20px;
+			min-width: 340px;
+			height: 48px;
+			background-color: #007F00;
+			border-radius: 10px;
+			font-size: 14px;
+			color: #FFFFFF;
+			text-transform: uppercase;
+			padding-top: 5px;
+			transition: all 0.4s;
+		}
+		.form-btn:hover {
+			background-color: #28333b;
+			box-shadow: 0 10px 30px 0px rgba(57, 71, 82, 0.8);
+		}
+
+	}
+
+	.hrPosition{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 0.2em;
+
+		.hrColor{
+			width: 100%;
+			background-color: grey;
+			color:grey;
+			font-size: large;
+			margin-top:1.5em;
+		}
+
+		.loginTitle{
+			color:grey;
+			text-align: center;
+			margin:1em;
+		}
+	}
+
+	.container-form-btn-mail {
+		display: flex;
+		justify-content: center;
+	}
+
+	.form-btnMail {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0 20px;
+		min-width: 340px;
+		height: 48px;
+		background-color: #FFFFFF;
+		border-radius: 10px;
+		font-size: 12px;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		padding-top: 5px;
+		transition: all 0.4s;
+		border:0.5px rgb(184, 183, 183) solid;
+
+		img{
+			width: 20px;margin-bottom:0.4em;
+		}
+	}
+	
+	.custom-font-mail {
+		color:grey;
+	}
+
+	.container-form-btn-fb {
+		display: flex;
+		justify-content: center;
+		margin-top: 1.3em;
+	}
+
+	.form-btnFb {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0 20px;
+		min-width: 340px;
+		height: 48px;
+		background-color: #3a5999;
+		border-radius: 10px;
+		font-size: 12px;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		padding-top: 5px;
+		transition: all 0.4s;
+		border:0.5px rgb(184, 183, 183) solid;
+	}
+	.form-btnMail:hover {
+		background-color: #FFFFFF;
+		box-shadow: 0 10px 30px 0px rgba(57, 71, 82, 0.8);
+	}
+	.custom-font-fb {
+		color:#FFFFFF;
+
+		img{
+			width: 20px;margin-bottom:0.4em;
+		}
+	}
+
+	ion-label{
+		font-family: Montserrat, sans-serif;
+	}
+
+}

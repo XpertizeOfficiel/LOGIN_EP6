@@ -1,0 +1,50 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+   <img src="../../assets/img/logo.png">
+   <div class="ion-padding flex-element">
+     <h1><b>Se connecter</b></h1>
+     <h6 routerLink="/register"><u>S'inscrire</u></h6>
+   </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ <div class="position">
+
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="email" placeholder="Adresse email"></ion-input>
+    </ion-item>
+
+    <ion-item class="item-position">
+      <ion-label position="floating">Mot de passe</ion-label>
+      <ion-input type="password" placeholder="Mot de passe"></ion-input>
+    </ion-item>
+
+    <h6 class="text-position" routerLink="/forgot-password"><u>Mot de passe oublié ?</u></h6>
+    <div class="container-form-btn">
+      <button class="form-btn custom-font">
+        <b>SE CONNECTER</b>
+      </button>
+    </div>
+
+    <div class="hrPosition">
+      <hr class="hrColor">
+      <h5 class="loginTitle">OU</h5>
+      <hr class="hrColor">
+    </div>
+
+    <div class="container-form-btn-mail">
+      <button class="form-btnMail custom-font-mail">
+        <img src="../../assets/img/gmail.png">&nbsp;<b>CONTINUER AVEC GOOGLE</b>
+      </button>
+    </div>
+
+    <div class="container-form-btn-fb">
+      <button class="form-btnFb custom-font-fb">
+        <img src="../../assets/img/facebook.png">&nbsp;&nbsp;<b>CONITINUER AVEC FACEBOOK</b>
+      </button>
+    </div>
+
+ </div>
+</ion-content>
